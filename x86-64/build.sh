@@ -22,6 +22,15 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES kmod-mlxsw-spectrum"
+PACKAGES="$PACKAGES kmod-leds-mlxcpld"
+PACKAGES="$PACKAGES kmod-mlx_wdt"
+PACKAGES="$PACKAGES kmod-hwmon-coretemp"
+PACKAGES="$PACKAGES kmod-hwmon-drivetemp"
+PACKAGES="$PACKAGES kmod-hwmon-jc42"
+PACKAGES="$PACKAGES kmod-i2c-i801"
+PACKAGES="$PACKAGES kmod-mlxreg"
+PACKAGES="$PACKAGES mstflint"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
